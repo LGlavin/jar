@@ -31,9 +31,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-gem 'zurb-foundation'
-gem 'foundation_rails_helper'
-gem 'foundation-icons-sass-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -46,6 +44,7 @@ gem 'foundation-icons-sass-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'spree', github: 'spree/spree', branch: '2-2-stable'
+gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-2-stable'
 
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
