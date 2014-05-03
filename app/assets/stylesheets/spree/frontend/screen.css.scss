@@ -1333,19 +1333,19 @@ table.order-summary {
 
 
 #logo{
-  font-size:25px;
+  font-size:20px;
 font-family: 'Istok Web', sans-serif;
- color:#fff;
-  padding-top:25px; 
+ color:#bbb;
+padding-top:25px; 
 margin-left:30px; 
 
 
 }
 #header{
+  font-size:12px;
   background-color:black;
   height:80px;
-  font-family: 'Ubuntu', sans-serif;
-}
+font-family: 'Istok Web', sans-serif;}
 
 .container{
   width:100%;
@@ -1353,24 +1353,28 @@ margin-left:30px;
 }
 
 nav#top-nav-bar {
-font-size:18px;
-margin-top: -100px;}
-
-// nav #main-nav-bar li#link-to-cart a,nav #main-nav-bar li a {
-//    float:none;
-//   font-size:10px;
-//   padding:0px;
-// margin-right:300px;}
-nav #main-nav-bar li#link-to-cart{
-  background:none;
+font-size:10px;
+margin-top: -100px;
 }
 
+
+nav #main-nav-bar li#link-to-cart{
+  background:none;
+  font-size:12px;
+  color:#bbb;
+}
+.span,amount{
+  color:#bbb;
+}
 
 nav #main-nav-bar li#home-link {
  
   margin-left:400px;
- 
+ }
 
+nav #main-nav-bar li a {
+  font-size:12px;
+  color:#fff;
 }
 
 nav #main-nav-bar{
@@ -1437,4 +1441,69 @@ span.price{
   color:black;
   font-size:14px;
   font-weight:normal;
+}
+h1{
+  text-align:center;
+   border-bottom: 1px solid #bbb;
+  width:80px;
+  margin-left:420px;
+
+
+}
+
+
+footer{
+  height:60px;
+  width:100%;
+  background-color:#ecf0f1;
+  margin-top:500px;
+
+}
+
+footer p{
+  list-style:none;
+  padding-left:20px;
+  font-weight:bold;
+   color:#bbb;
+  
+
+}
+
+.social-links{
+  float:right;
+  padding-right:60px;
+}
+
+.social-icons > a{
+ background-color:black;
+}
+.btn-twitter{
+  color:#bbb;
+}
+.btn-facebook{
+  color:#bbb;
+}
+.btn-instagram{
+  color:#bbb;
+}
+.btn-twitter:hover{
+  color:#00adee;
+}
+
+
+.btn-facebook:hover{
+    color:#00adee;
+}
+
+.btn-instagram:hover{
+    color:#00adee;
+}
+i{
+  padding:5px;
+  height:100px;
+}
+
+#product-description .product-title{
+  border-bottom:none;
+  margin-left:0px;
 }
