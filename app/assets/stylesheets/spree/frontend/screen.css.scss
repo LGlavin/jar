@@ -3,6 +3,7 @@
 
 @import 'spree/frontend/variables';
 @import 'font-awesome';
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 /*--------------------------------------*/
 /* Basic styles
@@ -1332,13 +1333,18 @@ table.order-summary {
 
 
 #logo{
-  font-size:40px;
-  color:#fff;
-  padding-top:25px;    
+  font-size:25px;
+font-family: 'Istok Web', sans-serif;
+ color:#fff;
+  padding-top:25px; 
+margin-left:30px; 
+
+
 }
 #header{
   background-color:black;
   height:80px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
@@ -1362,7 +1368,7 @@ nav #main-nav-bar li#link-to-cart{
 
 nav #main-nav-bar li#home-link {
  
-  margin-left:500px;
+  margin-left:400px;
  
 
 }
@@ -1378,7 +1384,10 @@ ul#products
   margin-left:100px;
   padding:20px;
 }
+body{
+    font-family: 'Ubuntu', sans-serif;
 
+}
 #wrapper{
 
   // margin-left:-20px;
